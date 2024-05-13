@@ -1,21 +1,40 @@
 h1 {
     color: rgb(5, 142, 107);
     text-align: center;
+    font-size: 60px;
 }
 h2 {
     color: rgb(5, 142, 107);
-    stroke: 1px;
+    stroke: 10px;
     text-align: center;
+    border: 2px solid rgb(5, 142, 107);
 }
-img {
-    height: auto;
+iframe, img {
+    /* height: auto; */
     margin: 0 auto;
     display: block;
 }
-iframe {
-    margin: 0 auto;
-    display: block;
-}
-p {
+.my-class {
     color: black;
+    text-align: center;
+    font-size: 15px;
+}
+/* iframe {
+    margin: 0 auto;
+    display: block;
+} */
+p, li {
+    color: black;
+    text-align: left;
+}
+a {
+    color:blue;
+}
+a:hover {
+    color: rgb(229, 4, 229);
+}
+/* define fonts */
+html {
+    font-family: 'HelveticaNeue', sans-serif;
+    font-size:20px;
 }
