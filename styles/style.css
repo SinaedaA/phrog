@@ -1,0 +1,21 @@
+h1 {
+    color: rgb(5, 142, 107);
+    text-align: center;
+}
+h2 {
+    color: rgb(5, 142, 107);
+    stroke: 1px;
+    text-align: center;
+}
+img {
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+iframe {
+    margin: 0 auto;
+    display: block;
+}
+p {
+    color: black;
+}
