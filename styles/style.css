@@ -1,28 +1,44 @@
+/* define fonts for html in general */
+html {
+    font-family: 'HelveticaNeue', sans-serif;
+    font-size: 20px;
+    background-color: rgb(195, 229, 166);
+}
+/* define the header characteristics */
 h1 {
-    color: rgb(5, 142, 107);
+    color: rgb(14, 74, 59);
     text-align: center;
     font-size: 60px;
+    text-shadow: 5px 5px 10px rgb(150, 150, 150);
+    margin: 0; /* browsers apply default styling to h1, but we eliminate the upper margin */
+    padding: 20px 0; /* and then add our own padding to the top and bottom of h1 */
 }
 h2 {
-    color: rgb(5, 142, 107);
+    color: rgb(0, 0, 0);
     stroke: 10px;
     text-align: center;
-    border: 2px solid rgb(5, 142, 107);
+    padding: 5px; /* padding is the space between the border and the text */
+    margin: 5px; /* margin is the space between the border and the next element */
+    background-color: rgb(255, 98, 0);
 }
-iframe, img {
-    /* height: auto; */
-    margin: 0 auto;
-    display: block;
-}
+/* define characteristics for text */
+/* the my-class object only applies to the text below the minecraft phrog right now */
 .my-class {
     color: black;
     text-align: center;
     font-size: 15px;
+    line-height: 6;
+    letter-spacing: 3px;
 }
-/* iframe {
-    margin: 0 auto;
-    display: block;
-} */
+/* define characteristics for the body */
+body {
+    width: 1000px;
+    margin: 0 auto; /* top and bottom margin are 0, left and right margin are auto, divides available horizontal space evenly between L and R */
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+/* define characteristics for the paragraphs and lists */
 p, li {
     color: black;
     text-align: left;
@@ -33,8 +49,19 @@ a {
 a:hover {
     color: rgb(229, 4, 229);
 }
-/* define fonts */
-html {
-    font-family: 'HelveticaNeue', sans-serif;
-    font-size:20px;
+iframe,
+img {
+    /* height: auto; */
+    margin: 0 auto;
+    display: block; /* centers the image, margin 0 doesn't work on its own, because images are inline elements, so we give it block-like behaviour */
+}
+button {
+    background-color: rgb(255, 98, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 37%;
 }
