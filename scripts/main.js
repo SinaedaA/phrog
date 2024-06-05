@@ -22,7 +22,7 @@ function setUserName() {
     }
     else {
         localStorage.setItem("name", myName); // call on the storage API to store myName in the "name"
-        myHeading.textContent = `Phrog is cool, right ${myName} ?`;
+        myHeading.textContent = `🐸 Welcome to the Phrog home ${myName} ?`;
     }
 }
 // check if "name" exists in stored data
@@ -32,7 +32,7 @@ if (!localStorage.getItem("name")) {
 } else {
     // if it is, take the name and only execute last part of the function
     const storedName = localStorage.getItem("name");
-    myHeading.textContent = `Phrog is cool, right ${storedName} ?`;
+    myHeading.textContent = `🐸 Welcome to the Phrog home ${storedName} ?`;
 }
 // add button to change name, in case it's not the right one
 myButton.onclick = () => {

@@ -14,55 +14,70 @@
         <script src="scripts/main.js" defer></script>
 
     </head>
-        <body>
-            <!-- Define fonts using GoogleAPI -->
-            <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" /> -->
-            <!-- We don't need it, considering I use HelveticaNeue which I have installed on my computer -->
+
+    <body>
+        <!-- Define fonts using GoogleAPI -->
+        <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" /> -->
+        <!-- We don't need it, considering I use HelveticaNeue which I have installed on my computer -->
+        <header>
             <h1>🐸 Phrog home 🐸</h1>
-            <button>Is this not your name? Change user...</button>
-            <h2>What is a phrog?</h2>
+        </header>
+        
+        <button class="name-button">Is this not your name? Change user...</button>
+        
+        <nav>
+                <a class="sub-page" href="quizz/index.html"><button class="menu-button"><b>Which phrog are you? (Quizz)</b></button></a>
+                <a class="sub-page" href="catch_a_frog/index.html"><button class="menu-button"><b>How to catch and befriend a phrog?</b></button></a>
+                <a class="sub-page" href="pictures/index.html"><button class="menu-button"><b>Want to see some cute phrog pictures?</b></button></a>
+            <form>
+                <input type="search" name="q" placeholder="Search query" />
+                <input type="submit" value="Go!" />
+            </form>
+        </nav>
 
-            <p>A phrog is a frog that is also a phish. It is a phrog.</p>
-            <p>Phrogs can be described in a great number of ways:</p>
+        <main>
+            <section>
+                <h2>What is a phrog?</h2>
 
-            <ul>
-                <li>They are green</li>
-                <li>They are slimy</li>
-                <li>They are cute</li>
-                <li>They are phishy</li>
-            </ul>
+                <p>According to the <a href="https://en.wiktionary.org/wiki/phrog">Wiktionary</a>, a Phrog is a 
+                    <q>Deliberate misspelling of frog</q>...
+                    However, this is a slanderous definition of the word Phrog, which encompasses a group of complex living creatures, that are very different from regular frogs.</p>
+                <p><em>So what is a Phrog?</em>
+                    <blockquote>A phrog is a frog that is also a phish. It is a phrog.</blockquote>
+                </p>
+                <p>Phrogs can be described in a great number of ways:</p>
 
-            <p>Their scientific name is <i>Phrogus phrogibus</i>.</p>
-            <img src="./images/phrog.webp" alt="A phrog" width="400">
-            <p class="my-class">This is a picture of a specific species of phrog, a <em>beautiful</em> <strong>Minecraft</strong> phrog.</p>
+                <ul>
+                    <li>They are green</li>
+                    <li>They are slimy</li>
+                    <li>They are cute</li>
+                    <li>They are phishy</li>
+                </ul>
 
-            <p>Some educational videos about phrogs exist 
-                on the interwebs. However, the most scientifically accurate was made by <a href="https://www.youtube.com/@tootymcnooty3485">NootyMcNooty</a>.
-                You can watch it here: 
-            </p>
-            <p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/abxX7P1J8I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </p> 
-            <p>
-                <a href="https://www.youtube.com/watch?v=abxX7P1J8I4&t=206s"
-                title="Link to the best explaining video about phrogs and what they like to do in their free time.">
-                In case the player doesn't appear here above.
-                </a>
-            </p>
-            <h2>Other resources:</h2>
-            <ul>
-                <li><a href="quizz/index.html">Which phrog are you? (Quizz)</a></li>
-                <li><a href="catch_a_frog/index.html">How to catch and befriend a phrog?</a></li>
-                <li><a href="pictures/index.html">Want to see some cute phrog pictures?</a></li>
-            </ul>
+                <p>Their scientific name is <i>Phrogus phrogibus</i>.</p>
+                <img src="./images/phrog.webp" alt="A Minecraft phrog" width="400">
+                <p class="image-descr">This is a picture of a specific species of phrog, a <em>beautiful</em> <strong>Minecraft</strong> phrog.</p>
 
+                <p>Some educational videos about phrogs exist 
+                    on the interwebs. However, the most scientifically accurate was made by <a href="https://www.youtube.com/@tootymcnooty3485">NootyMcNooty</a>.
+                    You can watch it <a href="https://www.youtube.com/watch?v=abxX7P1J8I4&t=206s"
+                        title="Link to the best explaining video about phrogs and what they like to do in their free time.">here</a>: 
+                </p>
+                <p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/abxX7P1J8I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p> 
 
-            <h2>How does a phrog differ from a ferg?</h2>
-            <p>A <strong>ferg</strong> is similar to a phrog, but it is slightly more childish. It also comes in different shapes and sizes, as this informative chart can prove to you.</p>
-            <img src="./images/ferg-examples.jpeg" alt="A ferg" width="400">
+            </section>
+            <hr \>
+            <section>
+                <h2>How does a phrog differ from a ferg?</h2>
+                <p>A <strong>ferg</strong> is similar to a phrog, but it is slightly more childish. It also comes in different shapes and sizes, as this informative chart can prove to you.</p>
+                <img src="./images/ferg-examples.jpeg" alt="A ferg" width="400">
+            </section>
+        </main>
 
-            <footer>
-                <p>Phrog page created by JohnSina, a phrog enthusiast.</p>
-            </footer>
-        </body>
+        <footer>
+            <p>Phrog page created by JohnSina, a phrog enthusiast (<a href="mailto:anderssen.sinaeda@gmail.com?cc=johannes.tischkewitz@web.de&subject=Suggestions%20for%20Phrog%20website">send me an e-mail with suggestions for this website</a>).</p>
+        </footer>
+    </body>
 </html>
